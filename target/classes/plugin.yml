@@ -1,0 +1,7 @@
+name: wardrobe
+version: '1.0-SNAPSHOT'
+main: com.jakub.wardrobe.Wardrobe
+api-version: '1.19'
+commands:
+  szafa:
+    description: Otwiera szafę gracza

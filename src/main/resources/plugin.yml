@@ -1,0 +1,7 @@
+name: wardrobe
+version: '${project.version}'
+main: com.jakub.wardrobe.Wardrobe
+api-version: '1.19'
+commands:
+  szafa:
+    description: Otwiera szafę gracza
