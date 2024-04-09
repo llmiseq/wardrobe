@@ -11,7 +11,6 @@ public class WardrobeModel {
     private Wardrobe myPluginInstance;
     private ItemStack itemStack;
     private int slotInEq;
-    private int maxInEq;
     private List<String> bonuses;
     private String name;
     private List<String> lore; // Dodane pole lore
@@ -34,17 +33,6 @@ public class WardrobeModel {
 
     public void setSlotInEq(int slotInEq) {
         this.slotInEq = slotInEq;
-    }
-
-    public int getMaxInEq() {
-        //System.out.println("Odczytano MaxInEq: " + maxInEq); // Dodano log
-        return maxInEq;
-    }
-
-    public void setMaxInEq(int maxInEq) {
-        //System.out.println("Próba ustawienia MaxInEq na: " + maxInEq); // Dodano log
-        this.maxInEq = maxInEq;
-        //System.out.println("Ustawiono MaxInEq na: " + this.maxInEq); // Dodano log
     }
 
     public ItemStack getPlayerItem(Player player) {

@@ -7,7 +7,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.Material;
 
-import static com.jakub.wardrobe.InventoryInit.artefaktModels;
+import static com.jakub.wardrobe.InventoryInit.wardrobeModels;
 
 // Zakładam, że WardrobeModel jest klasą, którą zdefiniowałeś gdzieś indziej
 
